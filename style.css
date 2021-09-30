@@ -73,7 +73,18 @@ body {
   padding: 30px;
   border-top: 1px solid hsla(225, 3%, 71%, 0.3);;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  text-align: center;
 }
 
+.card-footer h3 {
+  color: var(--very-dark-desaturated-blue);
+  margin-bottom: 5px;
+}
+
+.card-footer p {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: var(--dark-grayish-blue);
+}
 
