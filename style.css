@@ -19,7 +19,8 @@ body {
 }
 
 .card {
-  width: 300px;
+  width: 400px;
   background-color: white;
-  box-shadow: 10px 10px 20px var(--very-dark-desaturated-blue);
-}
+  box-shadow: 0px 0px 50px var(--dark-grayish-blue);
+  border-radius: 10px;
+} 
