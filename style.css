@@ -8,14 +8,18 @@
 body {
   font-size: 18px; /* name and stats*/
   font-family: "Kumbh Sans", sans-serif; /* weight: 400, 700*/
-  background-color: var(--very-dark-desaturated-blue);
-  min-height: 100vh;
+  background-color: var(--dark-cyan);
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: bottom 50vh right 50vw, top 60vh left 45vw;
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 .card {
-  width: 200px;
+  width: 300px;
   background-color: white;
+  box-shadow: 10px 10px 20px var(--very-dark-desaturated-blue);
 }
