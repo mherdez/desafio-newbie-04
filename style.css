@@ -9,4 +9,13 @@ body {
   font-size: 18px; /* name and stats*/
   font-family: "Kumbh Sans", sans-serif; /* weight: 400, 700*/
   background-color: var(--very-dark-desaturated-blue);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 200px;
+  background-color: white;
 }
