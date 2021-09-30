@@ -23,4 +23,23 @@ body {
   background-color: white;
   box-shadow: 0px 0px 50px var(--dark-grayish-blue);
   border-radius: 10px;
+  overflow: hidden;
 } 
+
+.card-header {
+  height: 150px;
+  background-image: url(./images/bg-pattern-card.svg);
+}
+
+.card-body {
+  text-align: center;
+}
+
+.avatar {
+  margin-top: -50px;
+}
+
+.avatar img {
+  border: 5px solid white;
+  border-radius: 100%;
+}
