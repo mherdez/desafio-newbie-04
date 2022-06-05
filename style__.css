@@ -1,0 +1,10 @@
+body {
+		min-height: 100vh;
+		margin: 0;
+		padding: 0;
+
+		background-color: hsl(185, 75%, 39%);
+		background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+		background-repeat: no-repeat, no-repeat;
+		background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+}
